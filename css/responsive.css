@@ -73,7 +73,6 @@
     width: 100%;
   }
   #community .inner div article.telephone a{
-
     font-size: 40px;
   }
 
@@ -99,8 +98,6 @@
   }
 }
 
-}
-
 @media screen and (max-width:768px){ /*max-width 이하 미디어쿼리*/  
   .h2{   
     font-size: 30px;
@@ -116,17 +113,29 @@
     content: "";
     display: none;
   }
-  /*타이틀*/
-  #title form.search{    
-    min-width: 90%;
-    margin-top: 27px;
-  }
-
   header .inner ul.gnb{   
     display: none;
   }
   header .inner ul.tnb{
     display: none;
+  }
+
+  /*타이틀*/
+  #title form.search{    
+    min-width: 90%;
+    margin-top: 27px;
+  }
+  /*빙그레맛*/
+  #taste .inner ul.list li{    
+    width: calc((100% / 2) - (50px / 2));
+  }
+
+  /*브랜드샵*/
+  #shop .inner ul.list{
+    flex-wrap: wrap; 
+  }
+  #shop .inner ul.list li{
+    width: calc(100% / 2 - 10px / 2);
   }
 
   /*커뮤니티*/
