@@ -1,0 +1,160 @@
+@media screen and (max-width:1200px){
+  header div.inner{    
+    flex-wrap: wrap;
+  }
+  header .inner h1{
+    order: 1;
+  }
+  header .inner ul.gnb{
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+  header .inner ul.enb{
+    order: 2;
+  }
+
+  /* 타이틀 */
+  #title{
+    min-height: 36.45833333333333vw;
+    height: 100vw;
+  }
+  #title::before{
+    width: 78.54166666666667vw;
+    height: 20.20833333333333vw;
+    margin-top: 3.125vw;
+  }
+  #title form.search{    
+    width: 36.45833333333333vw;
+    min-width: 600px;
+    margin-top: 27px;
+  }
+  #title ul.hash{    
+    column-gap: 20px;
+  }
+
+  /*빙그레맛*/
+  #taste .inner ul.list li{    
+    width: calc((100% / 3) - (50px / 3));
+  }
+
+  /*브랜드샵*/
+  #shop .inner ul.list{
+    flex-wrap: wrap; 
+  }
+  #shop .inner ul.list li{
+    width: calc(100% / 3 - 20px / 3);
+  }
+
+  /*커뮤니티*/
+  #community .inner > article{
+    width: 90%;    
+  }
+  #community .inner div article > a.viewMore{
+    width: 95px;
+  }
+  #community .inner div article ul li{    
+    width: 100%;
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+  #community .inner div article ul li a::after{ 
+    width: 30px;
+    height: 30px;
+    font-size: 21px;
+    line-height: 28px;
+  }
+  /*   
+  #community .inner div article ul li:nth-child(n):nth-child(-n+3){
+  line-height: 1.4;
+} 
+  */
+  #community .inner div article:not(.faq){    
+    width: 100%;
+  }
+  #community .inner div article.telephone a{
+
+    font-size: 40px;
+  }
+
+  /*하단영역*/
+  footer .inner{    
+    display: block;
+    height: auto;    
+  }
+  footer .inner .left h1 a{
+    margin-bottom: 20px;
+  }
+  footer .inner .left address{
+    transform: translateY(0px);
+  }
+  footer .inner .right{
+    align-items: flex-start;
+  }
+  footer .inner .right ul.personal{
+    margin-top: 20px;
+  }
+  footer .inner .right .bottom{
+    margin-top: 20px;
+  }
+}
+
+}
+
+@media screen and (max-width:768px){ /*max-width 이하 미디어쿼리*/  
+  .h2{   
+    font-size: 30px;
+  }
+  .h3{
+    font-size: 27px;
+  }
+  .btn1{
+    height: 40px;
+    width: 162px;
+  }
+  header .inner ul.gnb::after{
+    content: "";
+    display: none;
+  }
+  /*타이틀*/
+  #title form.search{    
+    min-width: 90%;
+    margin-top: 27px;
+  }
+
+  header .inner ul.gnb{   
+    display: none;
+  }
+  header .inner ul.tnb{
+    display: none;
+  }
+
+  /*커뮤니티*/
+  #community .inner div{
+    width: auto;
+    gap: initial;
+    box-shadow: 0 0 0 transparent;
+    row-gap: 50px;
+  }
+
+  /*하단영역*/
+  footer .inner{    
+    display: block;
+    height: auto;    
+  }
+  footer .inner .left h1 a{
+    margin-bottom: 20px;
+  }
+  footer .inner .left address{
+    transform: translateY(0px);
+  }
+  footer .inner .right{
+    align-items: flex-start;
+  }
+  footer .inner .right ul.personal{
+    margin-top: 20px;
+  }
+  footer .inner .right .bottom{
+    margin-top: 20px;
+  }
+}
