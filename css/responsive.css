@@ -140,10 +140,11 @@
 
   /*커뮤니티*/
   #community .inner div{
-    width: auto;
+    width: 100%;
     gap: initial;
     box-shadow: 0 0 0 transparent;
     row-gap: 50px;
+    padding: 0;
   }
 
   /*하단영역*/
