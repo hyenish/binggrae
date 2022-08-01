@@ -67,7 +67,7 @@
   /*   
   #community .inner div article ul li:nth-child(n):nth-child(-n+3){
   line-height: 1.4;
-} 
+  } 
   */
   #community .inner div article:not(.faq){    
     width: 100%;
@@ -125,7 +125,7 @@
     min-width: 90%;
     margin-top: 27px;
   }
-  /*빙그레맛*/
+    /*빙그레맛*/
   #taste .inner ul.list li{    
     width: calc((100% / 2) - (50px / 2));
   }
